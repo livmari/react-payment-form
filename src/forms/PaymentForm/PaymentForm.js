@@ -58,7 +58,7 @@ const PaymentForm = () => {
           }
         >
           {/* Form data visualization */}
-          <div className={'flex items-center justify-center hidden sm:block'}>
+          <div className={'sm:items-center sm:justify-center hidden sm:flex'}>
             <CreditCard
               num={values.cardNum}
               name={values.cardName}
