@@ -15,6 +15,7 @@
   },
   "scripts": {
     "format": "yarn prettier --write .",
-    "dev": "parcel public/index.html --open"
+    "dev": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
   }
 }
