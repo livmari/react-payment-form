@@ -1,0 +1,20 @@
+{
+  "name": "react-payment-form",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "formik": "^2.2.6",
+    "react": ">=16.8.0",
+    "react-dom": "^17.0.1",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "format": "yarn prettier --write .",
+    "dev": "parcel public/index.html --open"
+  }
+}
