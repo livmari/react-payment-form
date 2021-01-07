@@ -16,6 +16,6 @@
   "scripts": {
     "format": "yarn prettier --write .",
     "dev": "parcel public/index.html --open",
-    "heroku-postbuild": "parcel build public/index.html"
+    "build": "parcel build public/index.html"
   }
 }
